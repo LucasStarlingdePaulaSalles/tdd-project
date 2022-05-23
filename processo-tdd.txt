@@ -1,0 +1,6 @@
+O processo de desenvolvimento dirigido por testes utilizado nesse projeto consiste das seguintes etapas:
+É escrito um teste funcional para a nova funcionalidade. Esse teste funcional é executado, enquanto esse teste não passa o desenvolvedor fica no ciclo de teste unitario e desenvolvimento.
+Primeiro desenvolvemos um teste unitario e o executamos, se esse teste não passa ou o código da aplicação requer refatoração
+escrevemos código minimo para a aplicação intercalando implementação minima da nova funcionalidade com execução dos testes até que o novo teste passe e o código
+não requeira mais refactor. Quando o ciclo de teste unitario e desenvolvimento termina executamos o teste funcional novamente, se o teste passar e 
+o sistema não precisar de refatoração nossa nova funcionalidae está pronta, caso contrário devemos iniar um novo ciclo de teste unitario e desenvolvimento.
