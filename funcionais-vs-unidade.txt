@@ -1,0 +1,2 @@
+Testes de unidade testam apenas uma funcionalidade implementada em uma parte especifica de um sistema entaquanto testes funcionais buscam testar o sistema inteiro, com todas suas dependencias, pela perspectiva de um usuario.
+Testes de unidade devem ser rapidos e deterministicos, ja testes funcionais muitas vezes sao demorados e podem ter comportamento flaky (passarem as vezes e falharem outras).
